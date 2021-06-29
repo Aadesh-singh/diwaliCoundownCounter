@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;;
+}
+body {
+    
+    background-image: url(./crackers.jpg);
+    background-position: center;
+    background-size: cover;
+    background-clip: border-box;
+    background-attachment: local;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 80vh;
+    margin: 0px;
+}
+
+h1 {
+    line-height: 2rem;
+    margin-top: 20rem;
+    
+}
+
+.countdownContainer {
+    display: flex;
+    margin-top: 1rem;
+    
+}
+.sq {
+    background: white;
+    height: 180px;
+    width: 530px;
+    position: absolute;
+    opacity: 0.5;
+    z-index: -1;
+    margin-top: -80px;
+}
+.container-ele{
+    margin: 0 2.4rem;
+}
+.container-ele span {
+    margin-left: 20px;
+    
+}
+.big-text {
+    font-size: 3rem;
+    margin: 0px;
+    font-weight: 500;
+}
